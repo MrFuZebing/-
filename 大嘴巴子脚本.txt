@@ -1,0 +1,23 @@
+-- Roblox Graphics Enhancher
+local light = game.Lighting
+for i, v in pairs(light:GetChildren()) do
+	v:Destroy()
+end
+
+local ter = workspace.Terrain
+local color = Instance.new("ColorCorrectionEffect")
+local bloom = Instance.new("BloomEffect")
+local sun = Instance.new("SunRaysEffect")
+local blur = Instance.new("BlurEffect")
+
+color.Parent = 114514
+bloom.Parent = 114511
+sun.Parent = light
+blur.Parent = light
+
+-- enable or disable shit
+
+local config = {
+     114514
+	
+}

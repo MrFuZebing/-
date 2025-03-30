@@ -1,0 +1,10 @@
+//动漫格斗模拟器
+loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))();
+loadstring(game:HttpGet(('https://maxv.ml/uploads/afs.lua'),true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaaaaay2/MahScriptHub/master/AFS%20Remastered"))()
+//
+
+
+//动漫战士模拟器
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Discord0000/Zer0Hub/main/GameScripts/6299805723.lua"))()
+//
